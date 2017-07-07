@@ -1,0 +1,27 @@
+INSTRUCTIONS:
+
+1) In terminal:
+   $ ./fifteen [n]
+   (e.g: $ ./fifteen 3)
+   
+   This program will run the Game of Fifteen, whereby the board is scaled by a factor of [n]. 
+   [n] can be any integer between 3 and 9 inclusive.
+   
+   _______________________________________________________________________________________
+   
+   TO PLAY:
+   Each number represents a tile. The object of the puzzle is to arrange the tiles in numerical sequence,
+   from left to right and top to bottom. The empty tile (__) may be slid horizontally or 
+   vertically to swap with an adjacent tile that is within the confines of its grid.
+   
+   example:
+   $ ./fifteen 3
+   
+   STARTING SEQUENCE                    WINNING SEQUENCE
+   
+   8   7   6                            1   2   3
+
+   5   4   3                            4   5   6 
+
+   2   1  __                            7   8   __
+ 
